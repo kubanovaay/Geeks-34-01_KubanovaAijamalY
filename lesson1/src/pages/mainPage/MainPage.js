@@ -1,7 +1,7 @@
 import React from 'react';
 import Buttons from '../../components/buttons/Buttons';
 import User from '../user/User';
-import Input from '../Input/Input';
+import Input from '../Input/input.js';
 import Example from '../../components/example/Example';
 
 
@@ -17,7 +17,6 @@ const MainPage = () => {
                 <p style={{color: 'red', fontSize: '20px'}} >User</p>
                 <p>Age</p>
             </Example>
-            <input/>
         </>
     );
 };
